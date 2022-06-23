@@ -1,0 +1,8 @@
+    print('Hello there! Glad to meet you! Welcome to the world of Pokemon! My name is Professor Oak, but everyone here just calls me the pokemon professor! This world is inhabited far and wide by creatures we call Pokemon. People and Pokemon interact with each other in many ways. Some people keep them as companions, others have them do battle... As for myself, I study pokemon as a profession. Now why dont you tell me about yourself? What is your name?')
+    username = setPlayerName()
+    # TODO: add a new line after the prompt for the player name
+    print('Ah, what a wonderful name! Hello, ' + username)
+    print('This boy here is your friend and rival who grew up right next door to you! Ah, what was his name, now?')
+    charactername = setRivalName()
+    print('Mm-hmm, I see! His name is ' + charactername)
+    print( + username',my girl! Your very own pokemon tale is about to unfold! Yes, a world of dreams and adventures with Pokemon awaits!')
